@@ -222,6 +222,8 @@ target_link_libraries(app PRIVATE core)
 * 官方 Tutorial（一步一步照做）→ 安裝、測試、產生封裝…都從這裡開始。([cmake.org][2])
 * `cmake` 指令手冊（怎麼正確下 `cmake -S -B`、`cmake --build`）：([cmake.org][6])
 * `project()`、`add_executable()`、`cmake_minimum_required()` 的正式文件（遇到細節就翻）：([cmake.org][4])
+* [夠用就好的 CMake 教學（中文）](https://ithelp.ithome.com.tw/articles/10221101)（作者：renewang）([iThome][11])
+* [CMake ? 如何撰寫CMakeLists.txt ？Makefile？（中文）](https://hackmd.io/@Chunghao/rJBkfDQ1T)（作者：Chris Chung）([HackMD][12])
 
 ---
 
@@ -235,3 +237,5 @@ target_link_libraries(app PRIVATE core)
 [8]: https://cmake.org/cmake/help/book/mastering-cmake/cmake/Help/guide/tutorial/?utm_source=chatgpt.com "CMake Tutorial"
 [9]: https://cmake.org/cmake/help/v3.5/command/add_executable.html?utm_source=chatgpt.com "add_executable — CMake 3.5.2 Documentation"
 [10]: https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170&utm_source=chatgpt.com "CMake projects in Visual Studio"
+[11]: https://ithelp.ithome.com.tw/articles/10221101 "Day 11: 中場休息 CMake 教學"
+[12]: https://hackmd.io/@Chunghao/rJBkfDQ1T "CMake ? 如何撰寫CMakeLists.txt ？Makefile？"
